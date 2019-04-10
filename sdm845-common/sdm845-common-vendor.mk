@@ -87,10 +87,10 @@ PRODUCT_PACKAGES += \
     NxpNfcNci \
     NxpSecureElement \
     QtiTelephonyService \
-    ims \
     CNEService \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
     dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     dashd
