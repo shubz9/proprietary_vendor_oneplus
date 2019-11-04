@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/oneplus/sm8150-common/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
     vendor/oneplus/sm8150-common/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
+    vendor/oneplus/sm8150-common/proprietary/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.dolby.daxservice.xml \
     vendor/oneplus/sm8150-common/proprietary/etc/permissions/com.nxp.nfc.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.nxp.nfc.xml \
     vendor/oneplus/sm8150-common/proprietary/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.location.sdk.xml \
     vendor/oneplus/sm8150-common/proprietary/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.xml \
@@ -1739,4 +1740,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     WfdCommon \
     vendor.qti.hardware.capabilityconfigstore-V1.0-java \
-    dashd
+    dashd \
+    OPSoundTuner \
+    daxService
