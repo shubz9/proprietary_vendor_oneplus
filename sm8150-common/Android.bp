@@ -277,7 +277,7 @@ android_app_import {
 android_app_import {
 	name: "daxService",
 	owner: "oneplus",
-	apk: "proprietary/priv-app/daxService/daxService.apk",
+	apk: "proprietary/product/priv-app/daxService/daxService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
